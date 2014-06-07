@@ -1,17 +1,20 @@
     body { 
     
-      color: green;
-      text-align: center;
-      background-color: #E6E6FA;
-      vertical-align: center;
+    color: green;
+    font-size: 20px;
+    font-family: 'Lobster', Georgia, Times, serif;
+    text-align: center;
+    background-color: #E6E6FA;
+    vertical-align: center;
+
     
 
    }
 
     h1 { color: darkblue; 
-        font-size: 50px;
+        font-size: 70px;
         font-family: 'Lobster', Georgia, Times, serif;
-        font-weight: bold;
+       /* font-weight: bold;*/
         letter-spacing: 4pt;
         word-spacing: 5pt;
 
@@ -25,10 +28,13 @@
 
     }
 
+  
     h2 { color: blue; 
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+        font-family: "Lucida Sans", sans-serif;
         font-size: 30px;
-        font-weight: lighter;
+        font-style:italic;
+        font-weight:bold;
+        /*font-weight: lighter;*/
 
     }
 
@@ -48,20 +54,17 @@
         width: 190px;
         height: 190px;
         float: left ;
-        text-align: center;
-        vertical-align: center;
+        font-style:italic;
       }  
 
     .book.name  {
 
         font-size: 30px;
-        font-family: "Georgia", italic;
-
+        font-family: "Georgia";
+        font-style:italic;
+        text-align: center;
+        vertical-align: center;
       }
-
-    .user.name{
-
-    font-size: 30px;
 
     }
 
