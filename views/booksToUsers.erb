@@ -1,0 +1,8 @@
+<% if @favourites  %>
+ <% @favourites.each do |a| %>
+   <div class="favourites">
+   <%= a.user_id %> - <%= a.book_id %> <br>
+   </div>
+
+ <% end %>
+<% end %>

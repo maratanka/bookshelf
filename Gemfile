@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "sinatra-activerecord"
+gem "sinatra-contrib"
+gem "sinatra-assetpack"
+gem "sinatra-static-assets"
+gem "sinatra-flash"
+gem "datamapper"
+gem "dm-migrations"
+gem "dm-sqlite-adapter"
+gem "rake"
+gem "pg"
+gem "activerecord"
+# ...

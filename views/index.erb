@@ -1,0 +1,24 @@
+
+<h2>Add Book</h2>
+<form action="" method="post">
+ <label for="name">Title:</label><br />
+ <input id="name" name="book[name]" type="text" value="<%= @name %>" /><br />
+  <label for="author">Author:</label><br />
+ <input id="author" name="book[author]" type="text" value="<%= @author %>" />
+ <br />
+
+
+
+ <input type="submit" value="Save">
+</form> 
+
+<% if @books  %>
+ <div id="bookshelf">
+   <% @books.each do |book| %>
+     <div class="books">
+       "<%= book.name %>" - <%= book.author %>
+     </div>
+   <% end %>
+ </div>
+<% end %>
+<br />

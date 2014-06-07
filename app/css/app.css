@@ -1,0 +1,90 @@
+    body { 
+    
+      color: green;
+      text-align: center;
+      background-color: #E6E6FA;
+      vertical-align: center;
+    
+
+   }
+
+    h1 { color: darkblue; 
+        font-size: 50px;
+        font-family: 'Lobster', Georgia, Times, serif;
+        font-weight: bold;
+        letter-spacing: 4pt;
+        word-spacing: 5pt;
+
+      }
+
+    label {
+
+        color: #990033;
+        font-size: 20px;
+        font-style:italic;
+
+    }
+
+    h2 { color: blue; 
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: lighter;
+
+    }
+
+    input {
+      
+        color: red;
+
+    }
+
+    .books {
+        font-family: "Georgia";
+        font-style:italic;
+        background-color:#99FF66;
+        border:2px dashed darkblue;
+        color:#000033;
+        font-size: 20px;
+        width: 190px;
+        height: 190px;
+        float: left ;
+        text-align: center;
+        vertical-align: center;
+      }  
+
+    .book.name  {
+
+        font-size: 30px;
+        font-family: "Georgia", italic;
+
+      }
+
+    .user.name{
+
+    font-size: 30px;
+
+    }
+
+    .user {
+        font-family: "Georgia";
+        font-style:italic;
+        background-color:#99FF66;
+        border:2px dashed darkgreen;
+        width: 190px;
+        height: 190px;
+        float: left ;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20px;
+
+      }    
+    .favourites{
+
+        background-color:lightgreen;
+        border:1px dashed darkgreen;
+        width: 190px;
+        height: 190px;
+        float: left ;
+        text-align: center;
+        vertical-align: middle;
+      }    

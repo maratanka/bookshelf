@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  database: postgres2
+  username: postgres
+  password: andzia90
+  host: localhost

@@ -1,0 +1,12 @@
+<% if @user %>
+  <%= @user.name %>
+<% end %>
+<br>
+<% if @books  %>
+ <% @books.each do |book| %>
+    <div class="user">
+   <a href="/<%= @user.id %>/<%= book.id %>">"<%= book.name %>" - <%= book.author %></a> <br />
+   </div>
+ <% end %>
+<% end %>
+
